@@ -115,27 +115,5 @@ Language: Python
 Libraries: NumPy, SciPy, scikit-learn, Matplotlib, Seaborn  
 Key algorithms: PCA, ridge-style optimization, residual minimization, radial similarity scoring
 
----
-
-## Why It Works
-
-The system does not rely on pre-trained models or labeled data.  
-It instead reasons from geometry, using analytical relationships, ratios, and numerical fitting.  
-This makes it explainable, robust to noise, and easily extensible to new shapes.
-
----
-
-## Future Improvements
-
-- Vectorized residual scans for faster computation.  
-- Closed-form ellipse distance approximations.  
-- Adaptive calibration for the circle-to-square ratio.  
-- 3D extensions to detect spheres, cylinders, and ellipsoids.
-
----
-
-Created by Noah Bussell  
-Indiana University Bloomington  
-B.S. Data Science and Statistics
 
 
